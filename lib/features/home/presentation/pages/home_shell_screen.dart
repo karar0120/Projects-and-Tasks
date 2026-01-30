@@ -121,19 +121,20 @@ class _SettingsTab extends StatelessWidget {
   }
 
   Future<void> _logout(BuildContext context) async {
+    final tr = (String key) => AppLocalizations.of(context)?.trans(key) ?? key;
     final confirm = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Logout'),
-        content: const Text('Are you sure you want to logout?'),
+        title: Text(tr('logout')),
+        content: Text(tr('are_you_sure_you_want_to_logout')),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx, false),
-            child: const Text('Cancel'),
+            child: Text(tr('cancel')),
           ),
           TextButton(
             onPressed: () => Navigator.pop(ctx, true),
-            child: Text('Logout', style: TextStyle(color: ColorConsts.tomato)),
+            child: Text(tr('logout'), style: TextStyle(color: ColorConsts.tomato)),
           ),
         ],
       ),

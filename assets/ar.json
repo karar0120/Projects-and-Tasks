@@ -65,5 +65,6 @@
   "tasks_assigned": "تم تعيين المهام",
   "tap_to_add_task": "اضغط + لإضافة مهمة",
   "pull_to_load_tasks_screen": "اسحب لتحميل المهام",
-  "assign_user_tooltip": "تعيين مستخدم للمهام"
+  "assign_user_tooltip": "تعيين مستخدم للمهام",
+  "are_you_sure_you_want_to_logout": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
 }

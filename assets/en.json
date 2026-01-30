@@ -65,5 +65,6 @@
   "tasks_assigned": "Tasks assigned",
   "tap_to_add_task": "Tap + to add a task",
   "pull_to_load_tasks_screen": "Pull to load tasks",
-  "assign_user_tooltip": "Assign user to tasks"
+  "assign_user_tooltip": "Assign user to tasks",
+  "are_you_sure_you_want_to_logout": "Are you sure you want to logout?"
 }
